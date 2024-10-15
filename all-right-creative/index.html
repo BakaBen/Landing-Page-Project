@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Landing Page</title>
+    <title>All Right Creative</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -30,6 +31,12 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#portfolio">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#pricing">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#testimonial">Testimonial</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#contact">Contact</a>
@@ -149,6 +156,133 @@
         </div>
     </section>
 
+    <br></br>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2>Our Pricing</h2>
+                <p>Choose the plan that suits your needs</p>
+            </div>
+            <div class="row">
+            <!-- Pricing Card 1 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-header text-center bg-primary text-white">
+                        <h3>Basic Plan</h3>
+                    </div>
+                    <div class="card-body text-center">
+                        <h4 class="card-title">$9.99/month</h4>
+                        <p class="card-text">Ideal for small businesses</p>
+                        <ul class="list-unstyled">
+                            <li>5 Projects</li>
+                            <li>10GB Storage</li>
+                            <li>Basic Support</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Pricing Card 2 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-header text-center bg-success text-white">
+                        <h3>Pro Plan</h3>
+                    </div>
+                    <div class="card-body text-center">
+                        <h4 class="card-title">$19.99/month</h4>
+                        <p class="card-text">Best for growing businesses</p>
+                        <ul class="list-unstyled">
+                            <li>Unlimited Projects</li>
+                            <li>50GB Storage</li>
+                            <li>Priority Support</li>
+                        </ul>
+                        <a href="#" class="btn btn-success">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Pricing Card 3 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-header text-center bg-warning text-white">
+                        <h3>Enterprise Plan</h3>
+                        </div>
+                        <div class="card-body text-center">
+                            <h4 class="card-title">$49.99/month</h4>
+                            <p class="card-text">For large businesses</p>
+                            <ul class="list-unstyled">
+                                <li>Unlimited Projects</li>
+                                <li>200GB Storage</li>
+                                <li>Dedicated Support</li>
+                            </ul>
+                            <a href="#" class="btn btn-warning">Sign Up</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br></br>
+
+    <!-- Testimonial Section -->
+<section id="testimonial" class="py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2>What Our Clients Say</h2>
+            <p>See what people are saying about us</p>
+        </div>
+        <div class="row">
+            <!-- Testimonial Card 1 -->
+            <div class="col-md-4">
+                <div class="testimonial-card p-4">
+                    <p class="short-testimonial">
+                        "This company helped us scale our business by providing excellent services that exceeded our expectations..."
+                    </p>
+                    <p class="full-testimonial">
+                        "This company helped us scale our business by providing excellent services that exceeded our expectations. Their team was professional, responsive, and committed to helping us achieve our goals. We highly recommend them!"
+                    </p>
+                    <div class="text-end">
+                        <h5>- John Doe</h5>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonial Card 2 -->
+            <div class="col-md-4">
+                <div class="testimonial-card p-4">
+                    <p class="short-testimonial">
+                        "The support and dedication from the team have been outstanding. We saw a significant increase in our productivity..."
+                    </p>
+                    <p class="full-testimonial">
+                        "The support and dedication from the team have been outstanding. We saw a significant increase in our productivity and efficiency. Their expertise helped us achieve new milestones, and we couldn't be happier with the results."
+                    </p>
+                    <div class="text-end">
+                        <h5>- Jane Smith</h5>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonial Card 3 -->
+            <div class="col-md-4">
+                <div class="testimonial-card p-4">
+                    <p class="short-testimonial">
+                        "Working with this company has been a game changer for our business. Their innovative approach really set them apart..."
+                    </p>
+                    <p class="full-testimonial">
+                        "Working with this company has been a game changer for our business. Their innovative approach really set them apart from other service providers. We highly value their partnership and look forward to future collaboration."
+                    </p>
+                    <div class="text-end">
+                        <h5>- Robert Lee</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+     <br></br>
+     
     <!-- Contact Section -->
     <section class="contact-section" id="contact">
         <div class="contact-container">
@@ -160,6 +294,9 @@
 
                     <label for="email">Email</label>
                     <input type="email" id="email" name="email" placeholder="Your email..." required>
+
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Your subject..." >
 
                     <label for="message">Message</label>
                     <textarea id="message" name="message" placeholder="Your message..." required></textarea>
@@ -173,10 +310,49 @@
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="py-4 bg-dark text-white text-center">
-        
-        <p>&copy; 2024 MyWebsite. All Rights Reserved.</p>
+    <br></br>
+
+    <footer class="bg-dark text-light pt-5 pb-3">
+        <div class="container">
+            <div class="row">
+                <!-- Important Links -->
+                <div class="col-md-4 mb-4">
+                    <h5>Important Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light">Home</a></li>
+                        <li><a href="#" class="text-light">About Us</a></li>
+                        <li><a href="#" class="text-light">Services</a></li>
+                        <li><a href="#" class="text-light">Contact</a></li>
+                        <li><a href="#" class="text-light">Privacy Policy</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Social Media Links -->
+                <div class="col-md-4 mb-4">
+                    <h5>Follow Us</h5>
+                    <div class="social-icons">
+                        <a href="https://facebook.com" class="text-light me-3" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com" class="text-light me-3" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://instagram.com" class="text-light me-3" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://linkedin.com" class="text-light" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+    
+                <!-- Contact Info -->
+                <div class="col-md-4 mb-4">
+                    <h5>Contact Us</h5>
+                    <p>Email: info@company.com</p>
+                    <p>Phone: +123 456 7890</p>
+                    <p>Address: 123 Business St, City, Country</p>
+                </div>
+            </div>
+    
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="mt-4 mb-0">&copy; 2024 Your Company Name. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>

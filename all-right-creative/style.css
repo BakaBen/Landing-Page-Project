@@ -157,6 +157,98 @@ footer p {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+#pricing .card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#pricing .card-header {
+    padding: 20px;
+}
+
+#pricing .card-title {
+    font-size: 2rem;
+    margin: 15px 0;
+}
+
+#pricing .card-body ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+#pricing .card-body ul li {
+    padding: 5px 0;
+    font-size: 1.1rem;
+}
+
+#testimonial .testimonial-card {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    height: 250px; /* Fixed height for non-hover state */
+}
+
+#testimonial .testimonial-card:hover {
+    transform: scale(1.05); /* Pop-out effect */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    height: auto; /* Allow full content display */
+}
+
+#testimonial .testimonial-card .short-testimonial {
+    display: block;
+}
+
+#testimonial .testimonial-card .full-testimonial {
+    display: none;
+}
+
+#testimonial .testimonial-card:hover .short-testimonial {
+    display: none; /* Hide short testimonial on hover */
+}
+
+#testimonial .testimonial-card:hover .full-testimonial {
+    display: block; /* Show full testimonial on hover */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+footer h5 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+footer .social-icons a {
+    font-size: 1.5rem;
+    margin-right: 15px;
+}
+
+footer .social-icons a i {
+    transition: transform 0.3s ease;
+}
+
+footer .social-icons a:hover i {
+    transform: scale(1.2);
+}
+
 /* responsive css */
 
 @media (max-width: 768px) {
@@ -209,5 +301,27 @@ footer p {
     }
     .carousel-caption a{
         padding: 10px 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    #pricing .card-title {
+        font-size: 1.5rem;
+    }
+
+    #pricing .card-body ul li {
+        font-size: 1rem;
+    }
+
+    #testimonial .testimonial-card {
+        margin-bottom: 20px;
+    }
+
+    footer .social-icons a {
+        font-size: 1.2rem;
+    }
+    
+    footer h5 {
+        font-size: 1.1rem;
     }
 }
